@@ -20,7 +20,7 @@ def cosine_similarity(a, b):
 text1 = "I love fruits"
 text2 = "Lion eats deer"
 
-v1 = model.encode(text1)
-v2 = model.encode(text2)
+v1 = model.encode(text1)    # Vector-1
+v2 = model.encode(text2)    # Vector-2
 
 print(cosine_similarity(v1, v2)) # between 1 to -1, 1 showing very similarity and -1 showing very dissimilarity
