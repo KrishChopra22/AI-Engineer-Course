@@ -1,0 +1,20 @@
+[project]
+name = "day3-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "KrishChopra22", email = "krishchopra22@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+day3-rag = "day3_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
