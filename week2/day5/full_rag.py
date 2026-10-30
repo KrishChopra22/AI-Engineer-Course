@@ -22,7 +22,8 @@ documents = [
     "Employees work from office on Tuesdays, Wednesdays & Thursdays",
     "Mondays and Fridays are optional work from home days.",
     "Employees have a 60 days notice period",
-    "Employees can claim Rs. 2500 per month for home internet/wifi recharge"
+    "Employees can claim Rs. 2500 per month for home internet/wifi recharge",
+    "Employees get lunch and high-tea at office"
 ]
 
 document_embeddings = embed_model.encode(documents)     # list of vector knowledge base
